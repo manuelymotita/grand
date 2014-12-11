@@ -1,0 +1,170 @@
+html{
+	text-align: center;
+	background-color: #fff;
+}
+
+body {
+	font-family: "Open Sans", futura, arial, sans-serif;
+	font-size: 17px;
+	margin: 0;
+	font-weight: 200;
+}
+
+#logo img {
+	position: relative;
+	right: 10px;
+	background-color: ;
+	width: 15%;
+	height: auto;
+	margin:5px;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #4fc8ec;
+	transition: 0.5s;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #ff7900;
+}
+
+
+nav {
+	position: relative;
+	top: 17px;
+	width: 70%;
+	height: 30px;
+	margin: auto;
+	padding: auto;
+	font-size: 25px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #ff7900;
+}
+
+#content{
+	position: relative;
+	top: 40px;
+}
+
+#cover img{
+	width: 65%;
+	height: 350px;
+	background-image: url('images/cover.jpg');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: 90% auto;
+	background-position: center;
+}
+
+#circles img{
+	width: 10%;
+	height: auto;	
+}
+
+#danny {
+	display: inline-block;
+	width: 144px;
+	height: 144px;
+	background: transparent url('images/circleDanny1.png');
+	text-indent: 144px;
+	overflow: hidden;
+	background-size: 144px 144px;
+}
+
+#danny:hover {
+	background-image: url('images/circleDanny2.png');
+}
+
+#manny {
+	display: inline-block;
+	width: 144px;
+	height: 144px;
+	background: transparent url('images/circleManny1.png');
+	text-indent: 144px;
+	overflow: hidden;
+	background-size: 144px 144px;
+}
+
+#manny:hover {
+	background-image: url('images/circleManny2.png');
+}
+
+#alex {
+	display: inline-block;
+	width: 144px;
+	height: 144px;
+	background: transparent url('images/circleAlex1.png');
+	text-indent: 144px;
+	overflow: hidden;
+	background-size: 144px 144px;
+}
+
+#alex:hover {
+	background-image: url('images/circleAlex2.png');
+}
+
+.shadowTop{
+	box-shadow: 0px -7px 10px rgba(79,200,236,0.5);
+}
+
+.shadowBottom{
+	box-shadow: 20px 17px 10px rgba(79,200,236,0.5);
+}
+
+section {
+	width: 100vw;
+	height: 100vh;
+}
+
+#intro{
+	text-align: center;
+}
+
+#logoInt img{
+	position: absolute;
+	top: 10%;
+	width: 360px;
+	height: auto;
+	margin:5px;
+	padding: 0;
+	right: 36%;
+	}
+	
+#intro h1{
+	position: absolute;
+	top: 25%;
+	right: 45%;
+	font-weight: 200;
+	color: #4fc8ec;
+}
+
+#img1 {
+	background-image: url('images/house.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#mannyBio{
+	text-align: center;
+}
+
+#mannyBio img{
+	position: relative;
+	top: 100px;
+	width: 216px;
+	height: auto;
+}
+
+#mannyBio p{
+	position: relative;
+	top: 100px;
+	width:65%;
+	margin: auto;
+	padding: auto;
+	color: #4fc8ec;
+}
