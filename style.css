@@ -39,7 +39,7 @@ nav {
 	height: 30px;
 	margin: auto;
 	padding: auto;
-	font-size: 25px;
+	font-size: 20px;
 	border-bottom-style: solid;
 	border-width: 1px;
 	border-color: #ff7900;
@@ -52,7 +52,7 @@ nav {
 
 #cover img{
 	width: 65%;
-	height: 350px;
+	height: 300px;
 	background-image: url('images/cover.jpg');
 	background-repeat: no-repeat;
 	background-origin: content-box;
@@ -112,7 +112,7 @@ nav {
 }
 
 .shadowBottom{
-	box-shadow: 20px 17px 10px rgba(79,200,236,0.5);
+	box-shadow: 20px 20px 20px rgba(79,200,236,0.5);
 }
 
 section {
@@ -124,20 +124,12 @@ section {
 	text-align: center;
 }
 
-#logoInt img{
-	position: absolute;
-	top: 10%;
-	width: 360px;
-	height: auto;
-	margin:5px;
-	padding: 0;
-	right: 36%;
-	}
 	
 #intro h1{
-	position: absolute;
-	top: 25%;
-	right: 45%;
+	margin: auto;
+	padding: auto;
+	position: relative;
+	top: 100px;
 	font-weight: 200;
 	color: #4fc8ec;
 }
@@ -149,22 +141,61 @@ section {
 	background-attachment: fixed;
 }
 
-#mannyBio{
+#mannyBio, #dannyBio, #alexBio{
 	text-align: center;
 }
 
-#mannyBio img{
+#mannyBio img, #dannyBio img, #alexBio img{
 	position: relative;
 	top: 100px;
 	width: 216px;
 	height: auto;
 }
 
-#mannyBio p{
+#mannyBio p, #dannyBio p, #alexBio p{
 	position: relative;
 	top: 100px;
 	width:65%;
 	margin: auto;
 	padding: auto;
 	color: #4fc8ec;
+}
+
+#img2 {
+	background-image: url('images/web-02085.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#img2 {
+	background-image: url('images/web-02085.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#img3 {
+	background-image: url('images/web-07626.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#photo{
+	margin: auto;
+	padding: auto;
+	width: 60%;
+}
+
+#photo img{
+	width: 200px;
+	height:auto;
+}
+
+#title h1{
+	font-family: "Open Sans", futura, arial, sans-serif;
+	color: #4fc8ec;
+	font-size: 27px;
+	font-weight: 200;
 }
