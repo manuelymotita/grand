@@ -3,6 +3,10 @@ html{
 	background-color: #fff;
 }
 
+.clear {
+	clear: both;
+}
+
 body {
 	font-family: "Open Sans", futura, arial, sans-serif;
 	font-size: 17px;
@@ -198,4 +202,35 @@ section {
 	color: #4fc8ec;
 	font-size: 27px;
 	font-weight: 200;
+}
+
+#footer{
+	width: 100%;
+	height: 200px;
+	background-color: #4fc8ec;
+}
+
+#icons img{
+	width: 60px;
+	height: auto;
+}
+
+#icons li{
+	display: inline;
+}
+
+#icons {
+	float: right;
+}
+
+#footIcon img{
+	width: 100px;
+	height: auto;
+	margin-left: 5px;
+	margin-TOP: 5px;
+}
+
+#footIcon {
+	float:left
+	
 }
